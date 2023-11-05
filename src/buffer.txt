@@ -1,0 +1,76 @@
+.App {
+  color: white;
+}
+
+/* ############################### START OF NAV BAR CODE */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.logo {
+  padding-left: 20px;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.middleLinks {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: -30px;
+}
+
+.linkMiddle {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.linkMiddle2 {
+  position: relative; /* Change from absolute positioning */
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px; /* Add margin for the links */
+}
+
+.loginBox {
+  padding-right: 20px;
+}
+/* ############################### END OF NAV BAR CODE */
+/* ############################### START OF HEADER CODE */
+
+.centerThis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.buttonHere {
+  margin-top: 4%;
+  width: 100px;
+  width: 50px;
+  color: red;
+  font-size: 130%;
+}

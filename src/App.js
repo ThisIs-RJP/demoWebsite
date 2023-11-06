@@ -7,6 +7,7 @@ import userIcon from "./imgs/userIcon.png"
 import cardIcon from "./imgs/cardPlaying.png"
 import battleIcon from "./imgs/battleIcon.png"
 import victoryIcon from "./imgs/victory.png"
+import twitter from "./imgs/twitter.png"
 
 // ############################# IMPORT LIBRARIES
 import React, { useState, useEffect } from "react";
@@ -156,8 +157,61 @@ export default function App() {
             </div>
           </div>
 
+
         </div>
       </div>
+      {/* ###################### END OF SECOND BLOCK CODE */}
+      <div className='bufferBlack2'></div>
+      {/* ###################### START OF FOOTER CODE */}
+      <footer className='footer'>
+        <div className='footerContents'>
+          <div className='footerLogo'>
+            Logo goes here
+            <div className='slogan'>
+              Here goes the slogan
+            </div>
+          </div>
+
+          <div className='columnContents'>
+            <div>
+              Information 1
+            </div>
+            <div>
+              Information 2
+            </div>
+            <div>
+              Information 3
+            </div>
+          </div>
+
+
+          <div className='columnContents'>
+            <div>
+              Information 1
+            </div>
+            <div>
+              Information 2
+            </div>
+          </div>
+
+          <div className='columnContents'>
+            <div>
+              Information 1
+            </div>
+          </div>
+        </div>
+
+        <div className='centering'>
+          <div id='footerLine' />
+        </div>
+
+        <div id="logoStuff">
+          <img src={twitter} id="logo" />
+        </div>
+        <div className='copyrightStuff'>
+          Copyright. All rights reserved.
+        </div>
+      </footer>
     </div>
 
   );

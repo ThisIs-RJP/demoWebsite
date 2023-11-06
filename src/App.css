@@ -3,6 +3,11 @@
   z-index: -2;
 }
 
+.centering {
+  display: flex;
+  justify-content: center;
+}
+
 /* ############################### BUFFER CODE */
 
 .bufferBlack {
@@ -428,3 +433,58 @@
 }
 /* ################################## ANIMATION CODES  */
 /* --- Anything related to animation for this section should be here */
+
+/* ############################### END OF SECOND BLOCK CODE */
+/* ############################### START OF FOOTER CODE */
+
+.footer {
+  background-color: rgb(7, 7, 7);
+  justify-content: center;
+  font-size: 140%;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.footerContents {
+  display: flex;
+  justify-content: center;
+}
+
+.footerLogo {
+  padding-right: 100px;
+}
+
+.slogan {
+  font-size: 80%;
+}
+
+.copyrightStuff {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.columnContents {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#footerLine {
+  display: flex;
+  justify-content: center;
+  height: 1px;
+  width: 70%;
+  background-color: white;
+  margin-top: 10%;
+}
+
+#logoStuff {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  height: 25px;
+  width: 25px;
+}
